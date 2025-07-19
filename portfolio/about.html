@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./skills.css">
+    
+    <style>
+        .about{
+            margin: 50px;
+            text-align: center;
+            height: 500px;
+            border:10px solid black;
+        }
+        .submit{
+            border:1px solid orange;
+            padding: 10px;
+            color:blue;
+            font-size: 15px;
+            background-color: yellow;
+        }
+        .submit:active{
+            background-color: blue;
+            color: yellow;
+            box-shadow:2px 2px 2px rebeccapurple;
+        }
+        .body{
+            background-image:url("e.webp");
+             color: crimson;
+        }
+        
+    </style>
+</head>
+<body>
+   <DIV class="flex-header">
+        <header><a href="index.html" >Vani chowdary</a></header>
+        <nav class="nav-1">
+            <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="about.html">Contact Me</a>
+         
+        </nav>
+    </DIV>
+    <div class="about">
+         <h3>For more details </h3>
+         
+        <form action="" method="get">
+                <label for="name">Name &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                <input type="text" name="name" placeholder="Enter your name" required><br><br>
+                <label for="email">Email&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                <input type="email" name="email" placeholder="Enter your email" required><br>
+                <br>
+                <label for="password">Password &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                <input type="password" name="password" placeholder="Enter your password" required><br>
+                <br>
+                <label for="number">Phone number &nbsp;:</label>
+                <input type="number" name="phone" class="phone-input" placeholder="enter your mobile number " required>
+                <br> <br>
+                <label for="Gender">Gender :</label>
+                <input type="radio" name="Gender" id="Gender">Male</input>
+                <input type="radio"  name="Gender" id="Gender">Female</input>
+                <br><br>
+                <input  class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+   
+    <br>
+    
+    
+</body>
+</html>
